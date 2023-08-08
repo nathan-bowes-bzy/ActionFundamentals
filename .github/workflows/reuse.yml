@@ -13,7 +13,7 @@ jobs:
     steps: 
     - name: use output
       run: | 
-        echo: 'Output is: ${{ needs.call-workflow.outputs.current-time }}'
+        echo 'Output is: ${{ needs.call-workflow.outputs.current-time }}'
       
     
       
